@@ -62,3 +62,20 @@
     * target : 복사 대상 객체
     * ignoreProperties : 복사를 원하지 않는 프로퍼티
   
+### HATEOAS
+* Hypermedia As the Engine Of Application State
+* 현재 리소스와 연관된(호출 가능한) 자원 상태 정보를 제공
+
+### Swagger
+* API들이 가지고 있는 스펙을 명세, 관리
+* `localhost:8088/v2/api-docs`
+* `localhost:8088/swagger-ui.html`
+
+### Actuator
+* 어플리케이션의 상태를 종합적으로 정리하여 제공
+
+### HAL Browser
+* Response 메세지에 부가 정보들을 담아 함께 제공
+
+### Spring Security
+* 자동으로 생성되는 password로 간단한 인증처리
