@@ -13,6 +13,7 @@
 
 * 게시물 관리 API
     * 전체 게시물 목록 조회: GET HTTP Method, http://localhost:8088/users/{id}/posts
+    * 게시물 추가: POST HTTP Method, http://localhost:8088/users/{id}/posts
     * 게시물 삭제: DELETE HTTP Method, http://localhost:8088/users/{id}/posts/{post_id}
   
 <br/>
@@ -76,9 +77,6 @@
 
 ### HAL Browser
 * Response 메세지에 부가 정보들을 담아 함께 제공
-
-### Spring Security
-* 자동으로 생성되는 password로 간단한 인증처리
 
 ### JPA
 * Java Persistence API
